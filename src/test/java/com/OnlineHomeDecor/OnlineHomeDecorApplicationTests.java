@@ -1,10 +1,10 @@
-package com.OnlinehomedecorStore;
+package com.OnlineHomeDecorStore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OnlineMobileStoreApplicationTests {
+class OnlineHomeDecorApplicationTests {
 
 	@Test
 	void contextLoads() {
