@@ -1,4 +1,4 @@
-package com.OnlineMobileStore;
+package com.OnlinehomedecorStore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
