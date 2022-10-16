@@ -2,7 +2,7 @@ import { useNavigate, NavLink } from "react-router-dom";
 import './nav.css';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUserAlt, faShoppingBag, faShoppingCart, faSignOut, faSearch, faMobileRetro } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUserAlt, faShoppingBag, faShoppingCart, faSignOut, faSearch, faMobileRetro, faHomeAlt } from "@fortawesome/free-solid-svg-icons";
 import Profile from "./Profile";
 
 const NavBar = () => {
@@ -29,7 +29,7 @@ const NavBar = () => {
         <div className='navelecontainer'>
           <ul className='navrightele'>
             <li className='eleitem'><div className='navele'>
-              <FontAwesomeIcon icon={faMobileRetro} /> Home Decor
+              <FontAwesomeIcon icon={faHomeAlt} /> Home Decor
 
             </div></li>
           </ul>
