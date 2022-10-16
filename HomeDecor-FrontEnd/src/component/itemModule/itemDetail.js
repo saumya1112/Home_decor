@@ -53,10 +53,10 @@ const ItemDetails = () => {
                     Manufacturing Date
                     <input className='input' type="date"
                         value={product.mfd} disabled />
-                    Model Number
+                    Item Identifier
                     <input className='input' type="text"
                         value={product.itemIdentifier} disabled />
-                    Description Name
+                    Description
                     <input className='input' type="text"
                         value={product.description} disabled />
 
