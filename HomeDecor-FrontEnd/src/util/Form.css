@@ -1,0 +1,147 @@
+
+h2{
+    color: white;
+}
+.login-page {
+    padding: 8% 0 0;
+    margin: auto;
+    opacity: 1;
+}
+
+.form1 {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-color:blanchedalmond;
+    padding: 45px 50px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+.heading
+{
+    margin-bottom: 30px;
+    color: #2f2626;
+}
+
+.form1 select {
+    outline: 0;
+   background-color:#272B30;
+    width: 100%;
+    border: 0;
+    margin: 7px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 25px;
+    border-right: 16px solid transparent
+}
+.selectclass
+{
+    width:100%;
+    margin:6px;
+}
+.form1 input {
+    outline: 0;
+    background: #f2f2f291;
+    width: 100%;
+    border: 0;
+    margin: 7px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+}
+.form1 input:hover {
+    border: 1px solid hsl(0, 0%, 70%);
+}
+
+.form1 input[type=number]::-webkit-inner-spin-button,
+.form1 input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+.form1 button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #2f2626;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #c5aa6a;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.form1 button:hover,
+.form1 button:active,
+.form1 button:focus {
+    background: #1c2541;
+}
+
+.form1 .message {
+    margin: 15px 0 0;
+    color: #2f2626;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-form
+{
+    background-color:blanchedalmond;
+    padding: 0px;
+    width: 360px;
+}
+
+.form1 .errorMessage
+{
+    margin: 15px 0 0;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+.form1 .doneMessage
+{
+    margin: 15px 0 0;
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+.hideMessage
+{
+    display: None;
+}
+
+#button1:hover,
+#button:active{
+    background: red;
+}
+.login{
+    background-color: #2f2626;
+    padding: 2% 25% 2%;
+}
+.right {
+    float: right;
+    background-color:#272B30;
+    color: #c5aa6a;
+    padding: 1%;
+    margin-right: 5%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
