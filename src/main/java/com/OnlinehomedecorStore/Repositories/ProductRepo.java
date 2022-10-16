@@ -9,5 +9,5 @@ import com.OnlinehomedecorStore.entities.ItemModel;
 
 @Repository
 public interface ProductRepo extends JpaRepository<ItemModel, Integer> {
-	public List<ItemModel> findByItemName(String mobilename);
+	public List<ItemModel> findByItemName(String itemname);
 }
