@@ -9,5 +9,6 @@ import com.OnlinehomedecorStore.entities.ItemModel;
 
 @Repository
 public interface ProductRepo extends JpaRepository<ItemModel, Integer> {
+	@Query(value = "SELECT * FROM item_model p WHERE p.item_name = :itemname", nativeQuery = true)
 	public List<ItemModel> findByItemName(String itemname);
 }
